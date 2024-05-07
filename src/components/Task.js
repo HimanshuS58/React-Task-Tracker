@@ -1,6 +1,4 @@
-// use rafce
-
-import { FaTimes } from 'react-icons/fa'     // npm i react-icons
+import { FaTimes } from 'react-icons/fa'     
 
 const Task = ({ task, onDelete, onToggle }) => {
   return (
