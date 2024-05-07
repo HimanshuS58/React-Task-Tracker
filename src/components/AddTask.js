@@ -1,7 +1,3 @@
-// use rafce
-
-                                             /*   Very Imp    */
-
 import { useState } from 'react'
 
 const AddTask = ({ onAdd }) => {
@@ -20,8 +16,6 @@ const AddTask = ({ onAdd }) => {
 
         onAdd({text, day, reminder})
 
-// We are calling below functions so that after onsubmitting, the form field return to its 
-// default state(or the state in which we want)
         setText('')
         setDay('')
         setReminder(false)
